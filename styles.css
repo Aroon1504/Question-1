@@ -1,0 +1,130 @@
+/* Body */
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Main Container */
+main {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://firebasestorage.googleapis.com/v0/b/gorc-18fe3.appspot.com/o/background.webp?alt=media&token=57713a7f-8e6b-441b-99df-29da707f0ec3');
+  background-color: #263d36;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  max-width: none;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+#logo {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+a {
+  color: inherit;
+}
+
+.linkedIn {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.003em;
+  font-family: source-serif-pro, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+/* Introduction Section */
+.introduction {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.keyword {
+  font-family: source-code-pro, Menlo, Monaco, 'Courier New', Courier, monospace;
+  font-size: 75%;
+  padding: 2px 4px;
+  background-color: rgba(242, 242, 242, 1);
+  font-weight: 400;
+}
+
+.code {
+  background-color: #f5f5f5;
+  padding: 10px;
+  font-family: Consolas, monospace;
+  text-align: start;
+  max-width: ;
+}
+
+/* Sections */
+.section-1,
+.section-2,
+.third-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  pre {
+    font-size: 15px;
+  }
+}
